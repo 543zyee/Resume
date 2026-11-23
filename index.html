@@ -8,111 +8,194 @@
 </head>
 <body>
 
-    <header>
-        <div class="header-container">
-            <img src="image/me.jpg" alt="個人照片">
-            <div class="header-text">
-                <h1>Chang, Tzu-Yi</h1>
-                <p>中原大學資訊管理學系</p>
-                <p>「チャンスが来たら 掴めよ....!!」</p>
-                <p>「一但機會來臨，就要好好把握它！」</p>
-            </div>
+<header>
+    <div class="header-container">
+        <img src="image/me.jpg" alt="個人照片">
+        <div class="header-text">
+            <h1>Chang, Tzu-Yi</h1>
+            <p>中原大學資訊管理學系｜預計2027年6月畢業</p>
+            <p>「チャンスが来たら 掴めよ....!!」</p>
+            <p>「一但機會來臨，就要好好把握它！」</p>
         </div>
-    </header>    
+    </div>
+</header>
 
 <nav>
     <a href="#info">關於我</a>
     <a href="#skills">專業與技能</a>
-    <a href="#experience">個人經歷</a>
+    <a href="#portfolio">作品集</a>
+    <a href="#work">教學與工作經歷</a>
+    <a href="#experience">學習經歷</a>
     <a href="#contact">聯絡我</a>
 </nav>
 
 <section id="info">
     <h2>關於我</h2>
-    <p>哈囉，我目前就讀中原大學資訊管理學系三年級，來自桃園！<br>
-        假日會擔任兒童程式講師，寒暑假也會參與營隊活動，教學中看到孩子眼睛發亮的瞬間，總讓我覺得很值得。<br>
-        在學期間參與了不少專案和活動，曾在國小、高中舉辦程式一日營，實際體驗從企劃到執行的完整流程。<br>
-        此外，也有進行資料庫設計與後端網頁開發專題，是將理論轉化為實作的寶貴經驗！<br>
-        興趣的部分～我很喜歡唱歌、彈吉他，正在自學日文中（希望有天能無字幕追完動畫😆）。<br>
-        這裡是我記錄學習與成長的空間，也歡迎一起交流分享，讓我們在熱愛的世界裡，發光發熱 ✨</p>
+    <p>我是中原大學資訊管理學系學生，預計2027年6月畢業。<br>
+        2023年起擔任兒童程式講師，目前在蘋果芽數位科技擔任學習教練，累積了將程式概念轉化為易懂步驟的教學與溝通經驗。<br>
+        在學期間，我完成資料庫設計、系統分析與JSP後端開發等課程實作、畢業專題Muse中負責歌詞端的AI文本分析。<br>
+        此外，我也曾在國小與高中舉辦程式一日營，完整參與從企劃到執行的流程。<br>
+        我期望在實習中將所學應用於實務，持續累積系統分析與開發的能力。
+    </p>
 </section>
 
 <section id="skills">
     <h2>專業與技能</h2>
-    <div class="skills-container">
-        <!-- 程式技能 -->
-        <div class="skills-box code-skills">
-            <p><strong>程式技能</strong></p>
-            <div><span style="width: 85%">Python</span></div>
-            <div><span style="width: 85%">Java</span></div>
-            <div><span style="width: 60%">SQL</span></div>
-            <div><span style="width: 65%">HTML / CSS / JS</span></div>
-            <div><span style="width: 60%">JSP</span></div>
+    <div class="skills-box">
+        <div class="tag-group">
+            <h4>程式語言</h4>
+            <span class="tag accent">Python</span>
+            <span class="tag accent">Java</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">R</span>
+            <span class="tag">HTML / CSS</span>
+            <span class="tag">jQuery</span>
+            <span class="tag">JSP</span>
         </div>
-
-        <!-- 專業技能 -->
-        <div class="skills-box">
-            <p><strong>專業技能</strong></p>
-            <div class="circle-skills">
-                <div class="circle-skill" style="background: conic-gradient(#3399ff 65%, #cce5ff 0);" data-label="資料庫設計">65%</div>
-                <div class="circle-skill" style="background: conic-gradient(#3399ff 65%, #cce5ff 0);" data-label="網頁開發">65%</div>
-                <div class="circle-skill" style="background: conic-gradient(#3399ff 70%, #cce5ff 0);" data-label="系統分析">70%</div>
-                <div class="circle-skill" style="background: conic-gradient(#3399ff 30%, #cce5ff 0);" data-label="專案管理">30%</div>
-                <div class="circle-skill" style="background: conic-gradient(#3399ff 75%, #cce5ff 0);" data-label="教學設計">75%</div>
-            </div>
+        <div class="tag-group">
+            <h4>後端與資料庫</h4>
+            <span class="tag accent">JSP後端與資料庫串接</span>
+            <span class="tag">FastAPI</span>
+            <span class="tag">資料庫設計（ER圖、正規化）</span>
+            <span class="tag">系統分析（DFD、資料庫圖）</span>
+        </div>
+        <div class="tag-group">
+            <h4>AI與資料</h4>
+            <span class="tag accent">HuggingFace transformers</span>
+            <span class="tag accent">OpenAI API（GPT-4o-mini）</span>
+            <span class="tag">Gemini</span>
+            <span class="tag">Claude</span>
+            <span class="tag">Power BI</span>
+        </div>
+        <div class="tag-group">
+            <h4>工具與其他</h4>
+            <span class="tag">Git / GitHub</span>
+            <!-- <span class="tag">Docker（入門）</span> -->
+            <span class="tag">Excel</span>
+            <span class="tag">網路（CCNA課程）</span>
+            <span class="tag">作業系統</span>
+            <span class="tag">教學設計與簡報</span>
+        </div>
+        <div class="tag-group">
+            <h4>語言</h4>
+            <span class="tag">英語｜GEPT中級初試通過（2023/11）</span>
+            <!-- <span class="tag">日語｜自學中</span> -->
         </div>
     </div>
 </section>
 
+<section id="portfolio">
+    <h2>作品集</h2>
+    <div class="portfolio-item">
+        <h3>Muse｜AI廣告音樂配對平台</h3>
+        <p class="portfolio-meta">畢業專題（團隊）｜2025/3～2025/12｜FastAPI、MySQL、HuggingFace transformers、GPT-4o-mini</p>
+
+        <img class="portfolio-hero" src="image/Muse.jpg" alt="Muse 主視覺">
+
+        <p><strong>專案簡介</strong><br>
+        Muse協助品牌找到適合廣告的歌曲。品牌提供調性、企劃與Demo音檔，平台透過AI從現有歌曲中推薦適配的歌曲，並建議歌詞改編方向；另有「試聽所」讓聽眾試聽品牌的改編作品並投票。</p>
+
+        <p><strong>我負責的部分：歌詞端AI分析</strong></p>
+        <ul>
+            <li>以HuggingFace transformers的零樣本分類模型（mDeBERTa）判斷歌詞傳達的品牌調性與目標受眾。</li>
+            <li>使用GPT-4o-mini進行文本分析，並生成推薦結果的說明文字。</li>
+            <li>將分析結果整合進推薦流程，供前端呈現。</li>
+        </ul>
+
+        <a class="btn-link" href="pdf/muse-proposal.pdf" target="_blank">查看企劃書PDF</a>
+        <!-- GitHub 連結：確認密碼已雜湊、密鑰已更換後，再取消下面這行的註解並填入網址 -->
+        <!-- <a class="btn-link" href="（Muse倉庫網址）" target="_blank">GitHub</a> -->
+    </div>
+</section>
+
+<section id="work">
+    <h2>教學與工作經歷</h2>
+    <div class="timeline-item">
+        <h4>蘋果芽數位科技｜學習教練</h4>
+        <span class="period">2025/9～至今</span>
+        <ul>
+            <li>帶領10～20人的常態班，協助學員完成程式課程。</li>
+            <li>參與7梯營隊，服務逾70位學員。</li>
+        </ul>
+    </div>
+    <div class="timeline-item">
+        <h4>壞主意有限公司｜兒童程式講師</h4>
+        <span class="period">2023/7～2025/6</span>
+        <ul>
+            <li>授課7輪常態課、11梯營隊，服務逾百位學員。</li>
+            <li>依學員程度設計課程內容，把抽象的程式概念拆解成易懂的步驟。</li>
+        </ul>
+    </div>
+</section>
 
 <section id="experience">
-    <h2>個人經歷</h2>
+    <h2>學習經歷</h2>
 
-    <!-- 學習經歷 -->
-    <h3 class="text-center mb-4">學習經歷</h3>
     <div class="experience">
         <div class="exp-item">
+            <img src="image/sugarspooncakes.png" alt="多媒體程式設計">
+            <div>
+                <h4>多媒體程式設計｜sugarspooncakes</h4>
+                <p>以HTML、CSS與JavaScript製作網站前端，並使用GitHub進行版本管理，也有上台報告。</p>
+                <div class="img-row">
+                    <img src="image/sugarspooncakes-1.png" alt="多媒體程式設計">
+                    <img src="image/sugarspooncakes-2.png" alt="多媒體程式設計">
+                    <img src="image/sugarspooncakes-3.png" alt="多媒體程式設計">
+                </div>
+                <a class="btn-link" href="https://543zyee.github.io/sugarspooncakes/" target="_blank">GitHub</a>
+            </div>
+        </div>
+
+        <div class="exp-item">
+            <img src="image/project2.png" alt="網路程式設計">
+            <div>
+                <h4>網路程式設計｜BlossomShop購物網站</h4>
+                <p>以JSP、JDBC與MySQL實作購物網站的後端與資料庫串接，也有上台報告。</p>
+            </div>
+        </div>
+
+        <div class="exp-item">
+            <img src="image/StoreBooks.png" alt="資料庫管理">
+            <div>
+                <h4>資料庫管理｜網路書店資料庫規劃</h4>
+                <p>設計書店商品、訂單與會員系統的資料結構，使用ER圖與正規化分析，強化資料一致性與擴充性，也有上台報告。</p>
+                <img src="image/StoreBooks-1.png" alt="資料庫管理"><br>
+                <a class="btn-link" href="pdf/【書途同歸】資料庫管理期末報告.pdf" target="_blank">查看剪報PDF</a>
+            </div>
+        </div>
+
+        <!-- <div class="exp-item">
             <img src="image/project1.png" alt="心甸心計畫">
             <div>
                 <h4>企業概論｜心甸心計畫</h4>
                 <p>與「緬甸華文教育服務團-甸記」合作，透過公益餅乾設計與推廣，協助社群行銷並學習企業社會責任。</p>
                 <img src="image/project1-1.png" alt="心甸心計畫"><br>
-                <a href="pdf/【心甸心】企概期末報告ppt.pdf" target="_blank" class="btn btn-outline-primary btn-sm">查看剪報 PDF</a>
+                <a class="btn-link" href="pdf/【心甸心】企概期末報告ppt.pdf" target="_blank">查看剪報PDF</a>
             </div>
-        </div>
+        </div> -->
 
         <div class="exp-item">
-            <img src="image/project2.png" alt="程式一日營-建國國小">
+            <img src="image/StarStudents.png" alt="程式一日營-建國國小">
             <div>
                 <h4>管理學｜程式一日營@建國國小</h4>
                 <p>舉辦【星星學子】資訊教學活動，教授國小學生基礎程式，培養邏輯思維並激發學習興趣。</p>
-                <img src="image/project2-1.png" alt="程式一日營-建國國小"><br>
-                <a href="pdf/【星星學子】管理學期末報告.pdf" target="_blank" class="btn btn-outline-primary btn-sm">查看剪報 PDF</a>
+                <img src="image/StarStudents-1.png" alt="程式一日營-建國國小"><br>
+                <a class="btn-link" href="pdf/【星星學子】管理學期末報告.pdf" target="_blank">查看剪報PDF</a>
             </div>
         </div>
 
         <div class="exp-item">
-            <img src="image/project3.png" alt="資料庫管理">
-            <div>
-                <h4>資料庫管理｜網路書店資料庫規劃</h4>
-                <p>設計書店商品、訂單與會員系統的資料結構，使用 ER 圖與正規化分析，強化資料一致性與擴充性。</p>
-                <img src="image/project3-1.png" alt="資料庫管理"><br>
-                <a href="pdf/【書途同歸】資料庫管理期末報告.pdf" target="_blank" class="btn btn-outline-primary btn-sm">查看剪報 PDF</a>
-            </div>
-        </div>
-
-        <div class="exp-item">
-            <img src="image/project5.png" alt="南崁高中程式營">
+            <img src="image/HighSchoolWebCamp.png" alt="南崁高中程式營">
             <div>
                 <h4>資訊管理｜程式一日營@南崁高中</h4>
                 <p>規劃教學流程與教案設計，帶領高中生進行互動程式實作，提升資訊素養與問題解決能力。</p>
-                <img src="image/project5-1.png" alt="南崁高中程式營"><br>
-                <a href="pdf/【已購買小孩愛吃】資訊管理期末簡報.pdf" target="_blank" class="btn btn-outline-primary btn-sm">查看剪報 PDF</a>
+                <img src="image/HighSchoolWebCamp-1.png" alt="南崁高中程式營"><br>
+                <a class="btn-link" href="pdf/【已購買小孩愛吃】資訊管理期末簡報.pdf" target="_blank">查看剪報PDF</a>
             </div>
         </div>
     </div>
 </section>
-
 
 <footer id="contact">
     <h2>聯絡我</h2>
@@ -120,15 +203,12 @@
         <a href="https://mail.google.com/mail/?view=cm&to=543zyeee@gmail.com" target="_blank">
             <img src="image/mail.png" alt="Email">
         </a>
-        <a href="https://www.instagram.com/543zyee/" target="_blank">
-            <img src="image/instagram.png" alt="Instagram">
-        </a>
+
         <a href="https://github.com/543zyee" target="_blank">
             <img src="image/github.png" alt="GitHub">
         </a>
     </div>
 </footer>
-
 
 </body>
 </html>
